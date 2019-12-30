@@ -1,0 +1,40 @@
+**6.117 Introduction to Electircal Engineering Lab Skills**
+
+*IAP 2020 (Jan. 15 - Jan 31)*
+
+# Course information
+
+## Staff
+Lecturer: Sam Chinnery (chinnery)
+TAs: Tim Magoun (magoun), Savannah Inglin (singlin), Reed Foster (reedf)
+
+## Overview
+This course is designed to introduce students to the fundamentals of practical electrical engineering (EE)
+in a relaxed, project-oriented environment. There are no prerequisites for this class; the only requirements
+are creativity and an interest in EE. Due to the limited availability of lab resources, **enrollment in this
+course is limited to 17, with priority given to freshmen**. 
+
+## Prerequisites
+
+None
+
+## Lectures
+
+Lectures will be held on **Monday and Wednesday, from 2:30 to 4:00pm in 4-231**. 
+
+**Attendance at all
+lectures is mandatory**. 
+
+## Labs
+
+All lab work should be completed in the 6.117 lab space (**38-600**). There are three lab sections:
+- MW 4:00 - 7:00pm
+- TTh 1:00 - 4:00pm
+- TTh 4:00 - 7:00pm
+
+Students will be assigned to their choice of section if possible.
+
+## Grading
+This course is offered for 6 units of credit. Grades will be assigned on a **P/D/F** scale. All students who
+complete the lab assignments in good faith, attend all lectures, and prepare a final presentation should
+expect to pass.
