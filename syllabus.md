@@ -1,12 +1,29 @@
-**6.117 Introduction to Electircal Engineering Lab Skills**
+**6.117 Introduction to Electrical Engineering Lab Skills**
+    IAP 2020 (Jan. 15 - Jan. 31)
 
-*IAP 2020 (Jan. 15 - Jan 31)*
-
-# Course information
+- [Course Information](#Course-Information)
+    * [Staff](#Staff)
+    * [Overview](#Overview)
+    * [Prerequisites](#Prerequisites)
+    * [Lecture](#Lecture)
+    * [Lab](#Lab)
+    * [Grading](#Grading)
+- [Course Material](#Course-Material)
+    * [Objectives](#Objectives)
+    * [Lectures](#Lectures)
+    * [Labs](#Labs)
+    * [Design Project](#Design-Project)
+    * [Timeline](#Timeline)
+    
+# Course Information
 
 ## Staff
-Lecturer: Sam Chinnery (chinnery)
-TAs: Tim Magoun (magoun), Savannah Inglin (singlin), Reed Foster (reedf)
+
+**Lecturer**: Sam Chinnery (chinnery)
+
+**TAs**: Tim Magoun (magoun), Savannah Inglin (singlin), Reed Foster (reedf)
+
+Contact us through email: *(kerberos)* at mit dot edu
 
 ## Overview
 This course is designed to introduce students to the fundamentals of practical electrical engineering (EE)
@@ -18,11 +35,9 @@ course is limited to 17, with priority given to freshmen**.
 
 None
 
-## Lectures
+## Lecture
 
-Lectures will be held on **Monday and Wednesday, from 2:30 to 4:00pm in 4-231**. 
-
-**Attendance at all
+Lectures will be held on **Monday and Wednesday, from 2:30 to 4:00pm in 4-231**. **Attendance at all
 lectures is mandatory**. 
 
 ## Labs
@@ -38,3 +53,71 @@ Students will be assigned to their choice of section if possible.
 This course is offered for 6 units of credit. Grades will be assigned on a **P/D/F** scale. All students who
 complete the lab assignments in good faith, attend all lectures, and prepare a final presentation should
 expect to pass.
+
+# Course Material
+
+## Objectives
+The 2018 Undergraduate Perceptions Survey revealed a significant difference in the perception of EE at MIT between people internal to and external to the department. This course is intended to mitigate that difference by providing opportunities for students to engage with EE in a project-oriented environment and establishing a community of individuals interested in EE as a major or for personal projects. This course provides a comprehensive overview to practical EE through **lectures**, **labs** and a **design project**.
+
+The lectures will introduce students to basic circuit techniques, including Kirchoff’s laws (KVL and KCL), intuitive analysis and simulation. The lab assignments are designed to familiarize students with the use of EE lab equipment, including power supplies, oscilloscopes, function generators and spectrum analyzers. Following the completion of two lab assignments, students will work on a larger design project assignment. The design project is designed to expose students to more complex systems while providing structured outlets for creativity. While all students will work on the same assignment, certain components of the project will be open-ended and will require students to engineer unique solutions. Course staff will be available throughout the course and will provide guidance to students during the labs and project.
+
+## Lectures
+A tentative schedule of lectures is as follows:
+- Lecture 1: **Introduction and Basic Circuit Theory** *Wednesday 1/15*
+    - Course overview and logistics
+    - Common acronyms, units, and symbols; voltage and current
+    - Passive circuti elements: resistors, capacitors, inductors; KVL and KCL
+    - Lab equipment overview, lab safety, prototyping (**w/demo**)
+
+- Lecture 2: **Intermediate Circuit Theory, Active Components** *Monday 1/20*
+    - Impedance and passive filtering ( low-pass, high-pass, band-pass, band-reject)
+    - Active components: LEDs, BJTs, MOSFETs, Op-amps
+    - Op-amp circuits: inverting and non-inverting amplifiers, second-order filters
+    - Audio amplification, crossover distortion, push-pull output stage (**w/demo**)
+
+- Lecture 3: **Digital Circuits, Power Supplies, and Regulation** *Wednesday 1/22*
+    - Digital abstraction: logic gates, flip-flops, and shift registers
+    - Voltage regulators, power supplies, switching converters (**w/demo**)
+    - Bistable multivibrator, LM555 timer circuits, LM567 tone detector
+    - Design project overview, infrared communications and transimpedance amplifiers
+
+- Lecture 4: **Physical Design Considerations** *Monday 1/27*
+    - Schematic capture, component selection, system coexistence
+    - PCB layout and fabrication process, routing considerations
+    - Parasitic capacitance, inductance, resistance, power distribution and decoupling
+    - Circuit simulation in LTSpice (**w/demo**)
+
+- Lecture 5: **Radio Frequency (RF) and Communications; Conclusion** *Wednesday 1/29*
+    - Frequency domain represenations, Fourier transform, spectrum analysis
+    - Modulation (AM, FM, PSK, QAM), mixing, convolution, and demodulation (**w/demo**)
+    - Antenna theory, distributed-element components, RF design considerations
+    - Course conclusion, 6-1 and 6-2 major overview
+
+- 6-1 Experience Panel (*optional*): **Q&A Session on EE Careers and Classes** *Friday 1/31*
+    - Learn more about EE
+    - Talk to upperclassmen in 6-1 and 6-2
+    - Food will be served
+
+Each lecture includes a demonstraiton of a key EE principle. The demos are intended to build intuition for the material and show proper use of lab equipment.
+
+## Labs
+Students will complete two introductory lab assignments prior to the design project. Each lab will include
+instructions on how to conduct the lab as well as a short write-up assignment. **Both the lab and the write-
+up are designed to be completed during one 3-hour lab section**.
+
+**Lab 1** familiarizes students with basic EE lab equipment and standard lab procedures. Exercises will include measurements with digital multimeters (DMMs) and oscilloscopes, basic function
+generator operation, and construction of a simple oscillator using the LM555.
+
+**Lab 2** will cover intermediate circuit techniques presented in Lecture 2. Exercises will introduce active components, including common-emitter BJT amplifiers and simple op-amp circuits (inverting amplifiers, non-inverting amplifiers and second-order filters). Students will construct a discrete Class AB audio amplifier using a push-pull BJT output stage.
+
+## Design Project
+The design project will be distributed following the completion of Lab 1 and 2. The design project is intended to allow students to engineer a complex, mixed-signal system. The design project will incorporate principles from Lectures 1-3 and will feature **open-ended subproblems** to which students will implement their own solutions. After completing the design project, students will have designed and assembled a self-contained audio amplifier with remote lock/unlock capabilities. The digital lock can be repurposed to control a variety of devices.
+
+The design project will be completed in **three lab sessions**. During the first session, students will complete the digital lock/unlock circuit. The digital lock will be implemented using a shift register and a digital comparator, which will activate when a specific 8-bit password is presented at the input. During the second session, students will complete the remote-control circuitry. Remote functionality will be implemented with a 40 kHz amplitude-modulated (AM) infrared receiver/transmitter system. During the third session, students will assemble the project and finish any remaining items from previous sessions.
+
+*Below is a render of the design project board*
+
+![](board.png)
+
+## Timeline
+![](timeline.png)
