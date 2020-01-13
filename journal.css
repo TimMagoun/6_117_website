@@ -119,7 +119,8 @@ img.markdeep {
 @media screen {
     body {
         position: relative;
-        margin: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
         overflow: auto;
         max-width: none;
     }
