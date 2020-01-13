@@ -26,10 +26,12 @@
 Contact us through email: *(kerberos)* at mit dot edu
 
 ## Overview
-This course is designed to introduce students to the fundamentals of practical electrical engineering (EE)
-in a relaxed, project-oriented environment. There are no prerequisites for this class; the only requirements
-are creativity and an interest in EE. Due to the limited availability of lab resources, **enrollment in this
-course is restricted to first-year students**. 
+
+This course is designed to introduce students to the fundamentals of practical
+electrical engineering (EE) in a relaxed, project-oriented environment. There
+are no prerequisites for this class; the only requirements are creativity and an
+interest in EE. Due to the limited availability of lab resources, **enrollment
+in this course is restricted to first-year students**. 
 
 ## Prerequisites
 
